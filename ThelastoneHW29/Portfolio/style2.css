@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-wrapper{
+    display: flex;
+}
+.logo{
+    width: 145px;
+    height: 31px;
+    margin: 24px 93px 25px 215px;
+}
+.header-text{
+    display: flex;
+}
+
+.header-text a{
+    display: flex;
+    align-items: center;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+.header-text a:nth-child(1){
+    margin-right: 53px;
+}
+.header-text a:nth-child(2){
+    margin-right: 50px;
+}
+.header-text a:nth-child(2)::after{
+    content: "";
+    width: 78px;
+    height: 4px;
+    border-radius: 2px;
+    background: #2196F3;
+    position: absolute;
+    top: 6.6%;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-right: 315px;
+}
+.header-email-and-telephone{
+    display: flex;
+    align-items: center;
+}
+.header-email-and-telephone a{
+    text-decoration: none;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.header-email a{
+    margin-right: 30px;
+}
+
+/* MAIN */
+
+.line{
+    height: 1px;
+    background: #ECECEC;
+}
+
+.menu{
+    margin-top: 94px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.menu button{
+    width: 130px;
+    height: 38px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #F5F4FA;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    border: none;
+    margin-right: 8px;
+    margin-bottom: 48px;
+} 
+.menu button:hover{
+    color: #FFF;
+    background: #2196F3;
+}
+.menu button:first-child{
+    width: 73px;
+    height: 38px;
+}
+.menu button:first-child::after{
+    content: "";
+    background-image: url(../Portfolio/img3/finger\ 1.png);
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 214px;
+    right: 893px;
+}
+
+/* CARDS */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+.card{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.cards h2{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+.cards p{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+.image-container{
+    position: relative;
+    overflow: hidden;
+}
+.card .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card .image-container:hover::after {
+    content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
+    position: absolute;
+    width: 370px;
+    height: 100%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    top: 0;
+    background: rgba(33, 150, 243, 0.90);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
