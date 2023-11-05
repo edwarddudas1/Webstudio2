@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header-wrapper{
+.headerWrapper{
     display: flex;
 }
-.logo{
+.headerWrapper_logo{
     width: 145px;
     height: 31px;
     margin: 24px 93px 25px 215px;
 }
-.header-text{
+.headerWrapper_header-Text{
     display: flex;
 }
 
-.header-text a{
+.headerWrapper_header-Text a{
     display: flex;
     align-items: center;
     color: #212121;
@@ -27,13 +27,13 @@
     letter-spacing: 0.28px;
     text-decoration: none;
 }
-.header-text a:nth-child(1){
+.headerWrapper_header-Text a:nth-child(1){
     margin-right: 53px;
 }
-.header-text a:nth-child(2){
+.headerWrapper_header-Text a:nth-child(2){
     margin-right: 50px;
 }
-.header-text a:nth-child(2)::after{
+.headerWrapper_header-Text a:nth-child(2)::after{
     content: "";
     width: 78px;
     height: 4px;
@@ -42,7 +42,7 @@
     position: absolute;
     top: 6.6%;
 }
-.contact{
+.headerWrapper_header-Text_contact{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -55,11 +55,11 @@
     letter-spacing: 0.28px;
     margin-right: 315px;
 }
-.header-email-and-telephone{
+.headerEmailAndTelephone{
     display: flex;
     align-items: center;
 }
-.header-email-and-telephone a{
+.headerEmailAndTelephone a{
     text-decoration: none;
     color: #757575;
     font-family: Roboto;
@@ -69,7 +69,7 @@
     line-height: normal;
     letter-spacing: 0.28px;
 }
-.header-email a{
+.headerEmailAndTelephone_header_email a{
     margin-right: 30px;
 }
 
@@ -80,13 +80,13 @@
     background: #ECECEC;
 }
 
-.menu{
+.mainWrapper_menu{
     margin-top: 94px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.menu button{
+.mainWrapper_menu button{
     width: 130px;
     height: 38px;
     cursor: pointer;
@@ -105,15 +105,15 @@
     margin-right: 8px;
     margin-bottom: 48px;
 } 
-.menu button:hover{
+.mainWrapper_menu button:hover{
     color: #FFF;
     background: #2196F3;
 }
-.menu button:first-child{
+.mainWrapper_menu button:first-child{
     width: 73px;
     height: 38px;
 }
-.menu button:first-child::after{
+.mainWrapper_menu button:first-child::after{
     content: "";
     background-image: url(../Portfolio/img3/finger\ 1.png);
     position: absolute;
@@ -131,7 +131,7 @@
     border: 1px solid #EEE;
     background: #FFF;
 }
-.card{
+.cards_card{
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -157,16 +157,16 @@
     padding-bottom: 20px;
     padding-left: 24px;
 }
-.image-container{
+.cards_card_imageContainer{
     position: relative;
     overflow: hidden;
 }
-.card .image-container img {
+.cards_card .cards_card_imageContainer img {
     width: 100%;
     height: auto;
     display: block;
 }
-.card .image-container:hover::after {
+.cards_card .cards_card_imageContainer:hover::after {
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
     width: 370px;

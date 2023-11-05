@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header-wrapper{
+.headerWrapper{
     display: flex;
 }
-.logo{
+.headerWrapper_logo{
     width: 145px;
     height: 31px;
     margin: 24px 93px 25px 215px;
 }
-.header-text{
+.headerWrapper_header-Text{
     display: flex;
 }
 
-.header-text a{
+.headerWrapper_header-Text a{
     display: flex;
     align-items: center;
     color: #212121;
@@ -27,13 +27,13 @@
     letter-spacing: 0.28px;
     text-decoration: none;
 }
-.header-text a:nth-child(1){
+.headerWrapper_header-Text a:nth-child(1){
     margin-right: 53px;
 }
-.header-text a:nth-child(2){
+.headerWrapper_header-Text a:nth-child(2){
     margin-right: 50px;
 }
-.contact{
+.headerWrapper_header-Text_contact{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -46,11 +46,11 @@
     letter-spacing: 0.28px;
     margin-right: 315px;
 }
-.header-email-and-telephone{
+.headerEmailAndTelephone{
     display: flex;
     align-items: center;
 }
-.header-email-and-telephone a{
+.headerEmailAndTelephone a{
     text-decoration: none;
     color: #757575;
     font-family: Roboto;
@@ -60,14 +60,14 @@
     line-height: normal;
     letter-spacing: 0.28px;
 }
-.header-email a{
+.headerEmailAndTelephone_header_email a{
     margin-right: 30px;
 }
 
 /* MAIN */
 /* TITLE-WRAPPER */
 
-.title-wrapper{
+.titleWrapper{
     background-image: url(../Studio/img2/Img.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,14 +85,14 @@
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
-.order-a-service{
+.orderAService{
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-left: 692px;
     margin-bottom: 200px;
 }
-.order-a-service p{
+.orderAService p{
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -134,12 +134,12 @@
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
 }
-.svgpicture{
+.baldness_card1_svgpictures{
     border-radius: 4px;
     background: #F5F4FA; 
     width: 270px;
     height: 120px;  
 }
-.svg{
+.baldness_card1_svgpicture_svg{
     padding: 25px 100px;
 }
