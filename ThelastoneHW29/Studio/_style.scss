@@ -1,10 +1,12 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .headerWrapper{
-    display: flex;
+    @include flex(flex);
 }
 .headerWrapper_logo{
     width: 145px;
@@ -12,13 +14,13 @@
     margin: 24px 93px 25px 215px;
 }
 .headerWrapper_header-Text{
-    display: flex;
+    @include flex(flex);
 }
 
 .headerWrapper_header-Text a{
-    display: flex;
+    @include flex(flex);
     align-items: center;
-    color: #212121;
+    @include color($black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -33,11 +35,11 @@
 .headerWrapper_header-Text a:nth-child(2){
     margin-right: 50px;
 }
-.headerWrapper_header-Text_contact{
-    display: flex;
+.headerWrapper_header-Text-contact{
+    @include flex(flex);
     align-items: center;
     text-decoration: none;
-    color: #212121;
+    @include color($black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -47,7 +49,7 @@
     margin-right: 315px;
 }
 .headerEmailAndTelephone{
-    display: flex;
+    @include flex(flex);
     align-items: center;
 }
 .headerEmailAndTelephone a{
@@ -107,7 +109,7 @@
 /* BALDNESS */
 
 .baldness{
-    display: flex;
+    @include flex(flex);
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 94px;
@@ -115,7 +117,7 @@
 .baldness h3{
     margin-top: 30px;
     margin-bottom: 10px;
-    color: #212121;
+    @include color($black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;

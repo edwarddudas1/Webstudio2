@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .headerWrapper{
-    display: flex;
+    @include flex(flex);
 }
 .headerWrapper_logo{
     width: 145px;
@@ -12,13 +12,13 @@
     margin: 24px 93px 25px 215px;
 }
 .headerWrapper_header-Text{
-    display: flex;
+    @include flex(flex);
 }
 
 .headerWrapper_header-Text a{
-    display: flex;
-    align-items: center;
-    color: #212121;
+    @include flex(flex);
+    @include flex(center);
+    @include color($black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -43,10 +43,10 @@
     top: 6.6%;
 }
 .headerWrapper_header-Text_contact{
-    display: flex;
-    align-items: center;
+    @include flex(flex);
+    @include flex(center);
     text-decoration: none;
-    color: #212121;
+    @include color(black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -56,8 +56,8 @@
     margin-right: 315px;
 }
 .headerEmailAndTelephone{
-    display: flex;
-    align-items: center;
+    @include flex(flex);
+    @include flex(center);
 }
 .headerEmailAndTelephone a{
     text-decoration: none;
@@ -82,7 +82,7 @@
 
 .mainWrapper_menu{
     margin-top: 94px;
-    display: flex;
+    @include flex(flex);
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -93,8 +93,8 @@
     border-radius: 4px;
     background: #F5F4FA;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    color: #212121;
-    text-align: center;
+    @include color(black);
+    @include text(center);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -126,7 +126,7 @@
 /* CARDS */
 
 .cards{
-    display: flex;
+    @include flex(flex);
     flex-wrap: wrap;
     border: 1px solid #EEE;
     background: #FFF;
@@ -136,7 +136,7 @@
     margin-bottom: 30px;
 }
 .cards h2{
-    color: #212121;
+    @include color($black);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -180,8 +180,8 @@
     letter-spacing: 0.54px;
     top: 0;
     background: rgba(33, 150, 243, 0.90);
-    text-align: center;
-    display: flex;
-    align-items: center;
+    @include text(center);
+    @include flex(flex);
+    @include flex(center);
     opacity: 1;
 }
