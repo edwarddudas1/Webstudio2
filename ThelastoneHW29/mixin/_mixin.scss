@@ -1,13 +1,23 @@
-@import url(../Portfolio/_style2.scss);
-@import url(../Studio/_style.scss);
+@import '../Portfolio/_style2.scss';
+@import '../Studio/_style.scss';
 
-@mixin flex ($flex, $align){
+@mixin flex ($flex){
     display: $flex;
+}
+
+@mixin align($align){
     align-items: $center;
 }
+
 @mixin color($black){
     color: $black;
 }
 @mixin text($center){
     text-align: $center;
+}
+
+@mixin roboto($roboto){
+    font-family: $Roboto;
+}
+@mixin font($font){
 }

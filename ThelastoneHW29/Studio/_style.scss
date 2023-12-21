@@ -1,4 +1,5 @@
 // @import url('../Studio/style.css');
+@import "../mixin/_mixin.scss";
 
 *{
     margin: 0;
@@ -19,9 +20,9 @@
 
 .headerWrapper_header-Text a{
     @include flex(flex);
-    align-items: center;
-    @include color($black);
-    font-family: Roboto;
+    @include align(center);
+    @include color(black);
+    @include roboto(Roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -37,10 +38,10 @@
 }
 .headerWrapper_header-Text-contact{
     @include flex(flex);
-    align-items: center;
+    @include align(center);
     text-decoration: none;
-    @include color($black);
-    font-family: Roboto;
+    @include color(black);
+    @include roboto(Roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -50,12 +51,12 @@
 }
 .headerEmailAndTelephone{
     @include flex(flex);
-    align-items: center;
+    @include align(center);
 }
 .headerEmailAndTelephone a{
     text-decoration: none;
     color: #757575;
-    font-family: Roboto;
+    @include roboto(Roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -79,7 +80,7 @@
     padding-top: 200px;
     padding-bottom: 30px;
     color: #FFF;
-    font-family: Roboto;
+    @include roboto(Roboto);
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
@@ -97,7 +98,7 @@
 .orderAService p{
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
+    @include roboto(Roboto);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -117,8 +118,8 @@
 .baldness h3{
     margin-top: 30px;
     margin-bottom: 10px;
-    @include color($black);
-    font-family: Roboto;
+    @include color(black);
+    @include roboto(Roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -129,7 +130,7 @@
 
 .baldness p{
     color: #757575;
-    font-family: Roboto;
+    @include roboto(Roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

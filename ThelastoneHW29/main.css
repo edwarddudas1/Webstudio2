@@ -1,4 +1,160 @@
-@import url("../ThelastoneHW29/Studio/style.scss");
-body {
-  background-color: red;
-}/*# sourceMappingURL=main.css.map */
+@import url(../Portfolio/_style2.scss);
+@import url(../Studio/_style.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerWrapper {
+  display: flex;
+}
+
+.headerWrapper_logo {
+  width: 145px;
+  height: 31px;
+  margin: 24px 93px 25px 215px;
+}
+
+.headerWrapper_header-Text {
+  display: flex;
+}
+
+.headerWrapper_header-Text a {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.headerWrapper_header-Text a:nth-child(1) {
+  margin-right: 53px;
+}
+
+.headerWrapper_header-Text a:nth-child(2) {
+  margin-right: 50px;
+}
+
+.headerWrapper_header-Text-contact {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-right: 315px;
+}
+
+.headerEmailAndTelephone {
+  display: flex;
+  align-items: center;
+}
+
+.headerEmailAndTelephone a {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.headerEmailAndTelephone_header_email a {
+  margin-right: 30px;
+}
+
+/* MAIN */
+/* TITLE-WRAPPER */
+.titleWrapper {
+  background-image: url(../Studio/img2/Img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.orderAService {
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 692px;
+  margin-bottom: 200px;
+}
+
+.orderAService p {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  padding: 10px 32px;
+}
+
+/* BALDNESS */
+.baldness {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 94px;
+}
+
+.baldness h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.baldness p {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.baldness_card1_svgpictures {
+  border-radius: 4px;
+  background: #F5F4FA;
+  width: 270px;
+  height: 120px;
+}
+
+.baldness_card1_svgpicture_svg {
+  padding: 25px 100px;
+}

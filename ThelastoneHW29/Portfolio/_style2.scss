@@ -1,4 +1,4 @@
-@import url(../Portfolio/style2.css);
+@import '../Portfolio/style2.css';
 
 *{
     margin: 0;
@@ -20,7 +20,7 @@
 .headerWrapper_header-Text a{
     @include flex(flex);
     @include flex(center);
-    @include color($black);
+    @include color(black);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -138,7 +138,7 @@
     margin-bottom: 30px;
 }
 .cards h2{
-    @include color($black);
+    @include color(black);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
